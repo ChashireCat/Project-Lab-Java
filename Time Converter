@@ -1,0 +1,20 @@
+//Lab1
+//You need a program to convert days to seconds.
+//The given code takes the amount of days as input. Complete the code to convert it to seconds and output the result.
+
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int days = scanner.nextInt();
+    
+  		int hours = 24;
+  		int minutes  = 60;
+  		int second = 60;  
+  		int sum1 = days*hours;                
+  		int sum2 = sum1*minutes;
+  		int sum3 = sum2*second;
+		System.out.println(sum3);  
+	}
+}
